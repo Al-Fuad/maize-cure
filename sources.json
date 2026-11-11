@@ -1,0 +1,160 @@
+{
+  "folder": "https://drive.google.com/drive/folders/1l8QjkxI501vtjfQ3lVE_iqquQbJOlxl7",
+  "files": [
+    {
+      "path": "backend/data/mobilenetv2_100/history.json",
+      "drive_id": "1yE9m3dfqDUZiR05w-xrfcJE3e-suz6VD",
+      "url": "https://drive.google.com/file/d/1yE9m3dfqDUZiR05w-xrfcJE3e-suz6VD/view"
+    },
+    {
+      "path": "backend/data/mobilenetv2_100/mobilenetv2_100_class_report.json",
+      "drive_id": "12BIA5YtquI05PeifzuNiX_x95JOVIPBY",
+      "url": "https://drive.google.com/file/d/12BIA5YtquI05PeifzuNiX_x95JOVIPBY/view"
+    },
+    {
+      "path": "backend/data/mobilenetv2_100/result.json",
+      "drive_id": "1V2naH4gMP42NkpwTwAJ123oHyX0j_0yO",
+      "url": "https://drive.google.com/file/d/1V2naH4gMP42NkpwTwAJ123oHyX0j_0yO/view"
+    },
+    {
+      "path": "backend/data/mobilenetv2_100/class_balance.json",
+      "drive_id": "1wdp4IjpTFpQpnucU_2tfBl1SpAaUFd69",
+      "url": "https://drive.google.com/file/d/1wdp4IjpTFpQpnucU_2tfBl1SpAaUFd69/view"
+    },
+    {
+      "path": "backend/data/efficientnet_b0/efficientnet_b0_class_report.json",
+      "drive_id": "1MHYz0XguM9m9EVUOVtD9gPS7a3vgo5-T",
+      "url": "https://drive.google.com/file/d/1MHYz0XguM9m9EVUOVtD9gPS7a3vgo5-T/view"
+    },
+    {
+      "path": "backend/data/efficientnet_b0/result.json",
+      "drive_id": "1TH9HG-2XbXNAP9YAwqZvgCzY3xyoAND7",
+      "url": "https://drive.google.com/file/d/1TH9HG-2XbXNAP9YAwqZvgCzY3xyoAND7/view"
+    },
+    {
+      "path": "backend/data/efficientnet_b0/history.json",
+      "drive_id": "1ZY20NOqmuxYBmuIcGESBiYm-CWaHLMHu",
+      "url": "https://drive.google.com/file/d/1ZY20NOqmuxYBmuIcGESBiYm-CWaHLMHu/view"
+    },
+    {
+      "path": "backend/data/efficientnet_b0/class_balance.json",
+      "drive_id": "10vooeKi0uRw0v7PXWtklpj5C62eOgHid",
+      "url": "https://drive.google.com/file/d/10vooeKi0uRw0v7PXWtklpj5C62eOgHid/view"
+    },
+    {
+      "path": "backend/data/densenet121/history.json",
+      "drive_id": "1Ex4HT8xfcm5Zse_dZRtkaoIeG_464X4W",
+      "url": "https://drive.google.com/file/d/1Ex4HT8xfcm5Zse_dZRtkaoIeG_464X4W/view"
+    },
+    {
+      "path": "backend/data/densenet121/result.json",
+      "drive_id": "1PLr1CPxtNac1i5Do91tKbgSEE7EhPbMD",
+      "url": "https://drive.google.com/file/d/1PLr1CPxtNac1i5Do91tKbgSEE7EhPbMD/view"
+    },
+    {
+      "path": "backend/data/densenet121/densenet121_class_report.json",
+      "drive_id": "1DOzBztyjud76CgBZurG0_eBxdjjhMffh",
+      "url": "https://drive.google.com/file/d/1DOzBztyjud76CgBZurG0_eBxdjjhMffh/view"
+    },
+    {
+      "path": "backend/data/densenet121/class_balance.json",
+      "drive_id": "1UqrdNTbaWswIK-sBMaOXW-SaFAcOIkPB",
+      "url": "https://drive.google.com/file/d/1UqrdNTbaWswIK-sBMaOXW-SaFAcOIkPB/view"
+    },
+    {
+      "path": "backend/data/resnet50/result.json",
+      "drive_id": "1u9Y_9QYhgmMUWwIY8mi7h2m4kE5BWc5W",
+      "url": "https://drive.google.com/file/d/1u9Y_9QYhgmMUWwIY8mi7h2m4kE5BWc5W/view"
+    },
+    {
+      "path": "backend/data/resnet50/resnet50_class_report.json",
+      "drive_id": "1VzsxAR2hk9MxYFhokgNL_ABG7kLtHe-Z",
+      "url": "https://drive.google.com/file/d/1VzsxAR2hk9MxYFhokgNL_ABG7kLtHe-Z/view"
+    },
+    {
+      "path": "backend/data/resnet50/history.json",
+      "drive_id": "1Tig9QKEIGL4OiDRNWVNI9yKci6vCtaIf",
+      "url": "https://drive.google.com/file/d/1Tig9QKEIGL4OiDRNWVNI9yKci6vCtaIf/view"
+    },
+    {
+      "path": "backend/data/resnet50/class_balance.json",
+      "drive_id": "1dOyw2TjgRG1TnJinVuTEb0sBiYjZQZ6f",
+      "url": "https://drive.google.com/file/d/1dOyw2TjgRG1TnJinVuTEb0sBiYjZQZ6f/view"
+    },
+    {
+      "path": "backend/data/dataset_info.json",
+      "drive_id": "1gL5mU0oNMyShjca0riqj2LwqNorK7j1m",
+      "url": "https://drive.google.com/file/d/1gL5mU0oNMyShjca0riqj2LwqNorK7j1m/view"
+    },
+    {
+      "path": "frontend/public/samples/healthy.jpg",
+      "drive_id": "1bH6iW6KUg5nBvbfW38JhsnOtt7mbT5Wd",
+      "url": "https://drive.google.com/file/d/1bH6iW6KUg5nBvbfW38JhsnOtt7mbT5Wd/view"
+    },
+    {
+      "path": "frontend/public/samples/blight.jpg",
+      "drive_id": "1soeBDLBnMM2v0kJst0NPfRMSOytg1cKN",
+      "url": "https://drive.google.com/file/d/1soeBDLBnMM2v0kJst0NPfRMSOytg1cKN/view"
+    },
+    {
+      "path": "frontend/public/samples/spot.jpg",
+      "drive_id": "1OrpQwyiUAR0_7lFVsS9mwzi1cOc7JGeq",
+      "url": "https://drive.google.com/file/d/1OrpQwyiUAR0_7lFVsS9mwzi1cOc7JGeq/view"
+    },
+    {
+      "path": "frontend/public/samples/rust.jpg",
+      "drive_id": "1dxoeAeFlgcisskOCKxbMzUwMY4hvTWtI",
+      "url": "https://drive.google.com/file/d/1dxoeAeFlgcisskOCKxbMzUwMY4hvTWtI/view"
+    },
+    {
+      "path": "frontend/public/reports/training_time.png",
+      "drive_id": "102acqDH-z0YaajZyF9QnYbMh8-u0d7Mb",
+      "url": "https://drive.google.com/file/d/102acqDH-z0YaajZyF9QnYbMh8-u0d7Mb/view"
+    },
+    {
+      "path": "frontend/public/reports/per_class_metrics.png",
+      "drive_id": "11SE8GKxWZ_d3egBKVYf3FETz1Bd1A5FC",
+      "url": "https://drive.google.com/file/d/11SE8GKxWZ_d3egBKVYf3FETz1Bd1A5FC/view"
+    },
+    {
+      "path": "frontend/public/reports/confusion_matrices_normalized.png",
+      "drive_id": "1Ra_i5rI_BKc30cQWqxNRLD3z9XhpWzVa",
+      "url": "https://drive.google.com/file/d/1Ra_i5rI_BKc30cQWqxNRLD3z9XhpWzVa/view"
+    },
+    {
+      "path": "frontend/public/reports/confusion_matrices_counts.png",
+      "drive_id": "1MrWrZ1zlRX5lOXdFcrjMGyX5nDC5DzWK",
+      "url": "https://drive.google.com/file/d/1MrWrZ1zlRX5lOXdFcrjMGyX5nDC5DzWK/view"
+    },
+    {
+      "path": "frontend/public/reports/metric_comparison.png",
+      "drive_id": "1ENuZOOxHHJsy-bLT39sRoNmk6zBKG2l3",
+      "url": "https://drive.google.com/file/d/1ENuZOOxHHJsy-bLT39sRoNmk6zBKG2l3/view"
+    },
+    {
+      "path": "frontend/public/reports/training_curves.png",
+      "drive_id": "1pRuqgRb0cnzvA7eHLWmE2aJxVQSAqJcv",
+      "url": "https://drive.google.com/file/d/1pRuqgRb0cnzvA7eHLWmE2aJxVQSAqJcv/view"
+    },
+    {
+      "path": "backend/models/resnet50_best.pth",
+      "drive_id": "17xuiiveqbflUxk802IN3tz03Dv73hGsA",
+      "url": "https://drive.google.com/file/d/17xuiiveqbflUxk802IN3tz03Dv73hGsA/view"
+    },
+    {
+      "path": "backend/models/densenet121_best.pth",
+      "drive_id": "1dSV5ioxH4lbLhykEK7T4OmwVgdu_e0Rk",
+      "url": "https://drive.google.com/file/d/1dSV5ioxH4lbLhykEK7T4OmwVgdu_e0Rk/view"
+    },
+    {
+      "path": "backend/models/efficientnet_b0_best.pth",
+      "drive_id": "1JpzFCg3a8Y8XCbuB_MN6FyyIWX7zMvjH",
+      "url": "https://drive.google.com/file/d/1JpzFCg3a8Y8XCbuB_MN6FyyIWX7zMvjH/view"
+    },
+    {
+      "path": "backend/models/mobilenetv2_100_best.pth",
+      "drive_id": "10VwAmI-KxfdjBJUmFKI1Au_F4iTCPRHk",
+      "url": "https://drive.google.com/file/d/10VwAmI-KxfdjBJUmFKI1Au_F4iTCPRHk/view"
+    }
+  ]
+}

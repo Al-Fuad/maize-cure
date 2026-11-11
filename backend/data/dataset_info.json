@@ -1,0 +1,59 @@
+{
+  "num_classes": 5,
+  "classes": [
+    "Northern_Leaf_Blight",
+    "Southern_Leaf_Blight",
+    "Common_Rust",
+    "Gray_Leaf_Spot",
+    "Healthy"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "class_counts": {
+    "train": {
+      "Northern_Leaf_Blight": 21,
+      "Southern_Leaf_Blight": 0,
+      "Common_Rust": 0,
+      "Gray_Leaf_Spot": 52,
+      "Healthy": 1
+    },
+    "val": {
+      "Northern_Leaf_Blight": 4,
+      "Southern_Leaf_Blight": 0,
+      "Common_Rust": 0,
+      "Gray_Leaf_Spot": 11,
+      "Healthy": 0
+    },
+    "test": {
+      "Northern_Leaf_Blight": 6,
+      "Southern_Leaf_Blight": 0,
+      "Common_Rust": 0,
+      "Gray_Leaf_Spot": 12,
+      "Healthy": 1
+    }
+  },
+  "total_images": 108,
+  "data_sources": {
+    "PlantVillage": [
+      "Northern_Leaf_Blight",
+      "Common_Rust",
+      "Gray_Leaf_Spot",
+      "Healthy"
+    ],
+    "SciDB (DOI: 10.11922/sciencedb.745)": [
+      "Southern_Leaf_Blight"
+    ],
+    "Field collection (Bogura, Bangladesh)": [
+      "Northern_Leaf_Blight",
+      "Gray_Leaf_Spot",
+      "Healthy"
+    ]
+  }
+}

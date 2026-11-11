@@ -1,0 +1,39 @@
+{
+  "model": "mobilenetv2_100",
+  "accuracy": 0.9844425237683665,
+  "precision": 0.9846212693670782,
+  "recall": 0.9844425237683665,
+  "f1": 0.9845042122187584,
+  "macro_precision": 0.976622240463127,
+  "macro_recall": 0.9794740853121943,
+  "macro_f1": 0.9780026233251369,
+  "training_time_min": 42.7,
+  "epochs_completed": 100,
+  "best_epoch": 47,
+  "split_id": "c0199f84d4327ba6559ad3f88a089dfa88768ac42aee4df5182cb5b166a8c77c",
+  "run_signature": "f322d3b419fb472746aa7da2df763b17d833af8ab50338d73a9b6766ad93e345",
+  "config": {
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "image_size": 224,
+    "seed": 42,
+    "classes": [
+      "Common_Rust",
+      "Gray_Leaf_Spot",
+      "Healthy",
+      "Northern_Leaf_Blight"
+    ],
+    "class_weights": [
+      0.8080036044120789,
+      1.8770891427993774,
+      0.8288745284080505,
+      0.9773386716842651
+    ],
+    "freeze_fraction": 0.7,
+    "optimizer": "Adam",
+    "scheduler": "ReduceLROnPlateau:factor=0.5,patience=3",
+    "augmentation": "flip_h_v,rotate20,colorjitter0.2",
+    "pipeline_version": 1
+  }
+}

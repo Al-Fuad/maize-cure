@@ -1,0 +1,25 @@
+{
+  "release_tag": "models-v1",
+  "files": [
+    {
+      "filename": "densenet121_best.pth",
+      "sha256": "19f2519a276f233d6208028cb05570218c1f75929cd1d506c8ab328951994895",
+      "bytes": 28455114
+    },
+    {
+      "filename": "resnet50_best.pth",
+      "sha256": "e09319a55c373f1d28e2431a90e6ebb974eabc4dedc90d2f79b36932fc506e6d",
+      "bytes": 94388667
+    },
+    {
+      "filename": "mobilenetv2_100_best.pth",
+      "sha256": "bc5db226c6f6b135d59fbef059c38a52bf73d93b4690fb22b62262ac19263889",
+      "bytes": 9167563
+    },
+    {
+      "filename": "efficientnet_b0_best.pth",
+      "sha256": "34894dde79f972308a32e049869afd39b89e07444ba472bd0fed4c2e6006c465",
+      "bytes": 16351741
+    }
+  ]
+}

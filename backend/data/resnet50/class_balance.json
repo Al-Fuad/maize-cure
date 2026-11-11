@@ -1,0 +1,18 @@
+{
+  "Common_Rust": {
+    "train_images": 1668,
+    "loss_weight": 0.8192446231842041
+  },
+  "Gray_Leaf_Spot": {
+    "train_images": 770,
+    "loss_weight": 1.7746753692626953
+  },
+  "Healthy": {
+    "train_images": 1628,
+    "loss_weight": 0.8393734693527222
+  },
+  "Northern_Leaf_Blight": {
+    "train_images": 1400,
+    "loss_weight": 0.9760714173316956
+  }
+}

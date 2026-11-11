@@ -1,0 +1,39 @@
+{
+  "model": "efficientnet_b0",
+  "accuracy": 0.9835782195332757,
+  "precision": 0.9838116062429852,
+  "recall": 0.9835782195332757,
+  "f1": 0.9836127107484401,
+  "macro_precision": 0.9762095788446827,
+  "macro_recall": 0.9802050631310408,
+  "macro_f1": 0.9780855105636806,
+  "training_time_min": 49.12,
+  "epochs_completed": 100,
+  "best_epoch": 56,
+  "split_id": "b6b4639368566caa2fdf33b0b9d0625b4bf70694fb034b8a31891bef280694b5",
+  "run_signature": "ce1495c45421acb9438236cc630232640906737e2acd3980f6c0e7d2d6d634a9",
+  "config": {
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "image_size": 224,
+    "seed": 42,
+    "classes": [
+      "Common_Rust",
+      "Gray_Leaf_Spot",
+      "Healthy",
+      "Northern_Leaf_Blight"
+    ],
+    "class_weights": [
+      0.8080036044120789,
+      1.8770891427993774,
+      0.8288745284080505,
+      0.9773386716842651
+    ],
+    "freeze_fraction": 0.7,
+    "optimizer": "Adam",
+    "scheduler": "ReduceLROnPlateau:factor=0.5,patience=3",
+    "augmentation": "flip_h_v,rotate20,colorjitter0.2",
+    "pipeline_version": 1
+  }
+}
