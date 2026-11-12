@@ -12,7 +12,14 @@ from fastapi.responses import JSONResponse
 from PIL import Image, ImageOps, UnidentifiedImageError
 from starlette.concurrency import run_in_threadpool
 
+from dotenv import load_dotenv
+if __package__:
+    from .advice import AdviceRequest, get_advice
+else:
+    from advice import AdviceRequest, get_advice
+
 ROOT = Path(__file__).parent
+load_dotenv(ROOT / '.env', override=False)
 MODEL_IDS = ('mobilenetv2_100', 'efficientnet_b0', 'densenet121', 'resnet50')
 NAMES = dict(zip(MODEL_IDS, ('MobileNetV2', 'EfficientNet-B0', 'DenseNet121', 'ResNet50')))
 MAX_BYTES = 10 * 1024 * 1024
@@ -113,3 +120,8 @@ async def predict(model_id: str, file: UploadFile = File(...)):
     if not raw:
         raise HTTPException(400, 'Choose an image first.')
     return await run_in_threadpool(infer, model_id, raw)
+
+
+@app.post('/api/advice')
+async def advice(data: AdviceRequest):
+    return await get_advice(data)
