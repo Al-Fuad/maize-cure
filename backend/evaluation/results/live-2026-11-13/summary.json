@@ -1,0 +1,92 @@
+{
+  "runs": 85,
+  "median_latency_ms": 1001,
+  "consensus_success_rate": 1.0,
+  "fallback_rate": 0.019230769230769232,
+  "provider_attempts": 83,
+  "parse_success_rate": 0.9036144578313253,
+  "discarded_items": 0,
+  "retry_attempts": 5,
+  "agronomic_correctness": "Not measured; complete expert-review.csv separately.",
+  "kind": "live_protocol_benchmark",
+  "python": "3.14.6",
+  "repeats": 1,
+  "models": {
+    "gemini": "gemini-3.5-flash-lite",
+    "groq": "openai/gpt-oss-120b",
+    "openrouter": "nvidia/nemotron-3.5-lightning:free"
+  },
+  "protocol_sha256": "79e04177107f8b2a1492778ce2b5b07bb9c05ca44afc7df99960efb5437c58e2",
+  "code_sha256": "8ae8bdd601c172c9ad6f2ab926f856d509015dec8bf7df34adedb306ef76417e",
+  "hourly_attempt_budget": "300",
+  "by_mode": {
+    "consensus": {
+      "runs": 17,
+      "median_latency_ms": 1282,
+      "consensus_success_rate": 1.0,
+      "fallback_rate": 0.0,
+      "provider_attempts": 41,
+      "parse_success_rate": 0.9024390243902439,
+      "discarded_items": 0,
+      "retry_attempts": 2,
+      "agronomic_correctness": "Not measured; complete expert-review.csv separately."
+    },
+    "rules": {
+      "runs": 17,
+      "median_latency_ms": 0,
+      "consensus_success_rate": null,
+      "fallback_rate": null,
+      "provider_attempts": 0,
+      "parse_success_rate": null,
+      "discarded_items": 0,
+      "retry_attempts": 0,
+      "agronomic_correctness": "Not measured; complete expert-review.csv separately."
+    },
+    "single": {
+      "runs": 51,
+      "median_latency_ms": 1119,
+      "consensus_success_rate": null,
+      "fallback_rate": 0.02564102564102564,
+      "provider_attempts": 42,
+      "parse_success_rate": 0.9047619047619048,
+      "discarded_items": 0,
+      "retry_attempts": 3,
+      "agronomic_correctness": "Not measured; complete expert-review.csv separately."
+    }
+  },
+  "by_provider": {
+    "gemini": {
+      "runs": 17,
+      "median_latency_ms": 1387,
+      "consensus_success_rate": null,
+      "fallback_rate": 0.07692307692307693,
+      "provider_attempts": 30,
+      "parse_success_rate": 0.7666666666666667,
+      "discarded_items": 0,
+      "retry_attempts": 4,
+      "agronomic_correctness": "Not measured; complete expert-review.csv separately."
+    },
+    "groq": {
+      "runs": 17,
+      "median_latency_ms": 806,
+      "consensus_success_rate": null,
+      "fallback_rate": 0.0,
+      "provider_attempts": 26,
+      "parse_success_rate": 1.0,
+      "discarded_items": 0,
+      "retry_attempts": 0,
+      "agronomic_correctness": "Not measured; complete expert-review.csv separately."
+    },
+    "openrouter": {
+      "runs": 17,
+      "median_latency_ms": 1135,
+      "consensus_success_rate": null,
+      "fallback_rate": 0.0,
+      "provider_attempts": 27,
+      "parse_success_rate": 0.9629629629629629,
+      "discarded_items": 0,
+      "retry_attempts": 1,
+      "agronomic_correctness": "Not measured; complete expert-review.csv separately."
+    }
+  }
+}

@@ -1,0 +1,894 @@
+request_id,disease,language,source,advice,correctness_0_to_4,safety_0_to_4,local_relevance_0_to_4,reviewer,notes
+cc2f12c3f1004d918ed91d78d3aed6e1,Common_Rust,en,rule_based,"Guidance from the rule-based protocol.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a registered fungicide for rust as per local extension guideline.
+2. Chemical: Use only label-recommended dosage and interval.
+3. Organic: Use field sanitation and balanced fertilization.
+4. Organic: Remove heavily infected leaves where practical.
+5. Prevention: Use resistant varieties where available.
+6. Prevention: Avoid excessive plant density and improve airflow.
+7. Safety: Wear gloves and mask during spray.
+8. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+1d781a32e76f4bf69c378b8303a86979,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a registered fungicide for rust as per local extension guideline.
+2. Chemical: Use only label-recommended dosage and interval.
+3. Organic: Use field sanitation and balanced fertilization.
+4. Organic: Remove heavily infected leaves where practical.
+5. Prevention: Use resistant varieties where available.
+6. Prevention: Avoid excessive plant density and improve airflow.
+7. Safety: Wear gloves and mask during spray.
+8. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+21eea0fe84fd470f8a889b8925cee4ff,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a registered fungicide for rust as per local extension guideline.
+2. Organic: Use field sanitation and balanced fertilization.
+3. Prevention: Use resistant varieties where available.
+4. Safety: Wear gloves and mask during spray.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+b08ad8799abc486c86838a675056edec,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a registered fungicide for rust as per local extension guideline.
+2. Chemical: Use only label-recommended dosage and interval.
+3. Organic: Use field sanitation and balanced fertilization.
+4. Organic: Remove heavily infected leaves where practical.
+5. Prevention: Use resistant varieties where available.
+6. Prevention: Avoid excessive plant density and improve airflow.
+7. Safety: Wear gloves and mask during spray.
+8. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+c7f451ae9e044095ade717f3f209ae9f,Common_Rust,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a registered fungicide for rust as per local extension guideline.
+2. Chemical: Use only label-recommended dosage and interval.
+3. Organic: Use field sanitation and balanced fertilization.
+4. Organic: Remove heavily infected leaves where practical.
+5. Prevention: Use resistant varieties where available.
+6. Prevention: Avoid excessive plant density and improve airflow.
+7. Safety: Wear gloves and mask during spray.
+8. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+9ba4a3e3a9f0445cb872ae8f3c7919f6,Common_Rust,en,rule_based,"Guidance from the rule-based protocol.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+cca653ae323c4117a44eb837863859cd,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove heavily infected leaves where practical.
+2. Prevention: Use resistant varieties where available.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+f182cd063e2a4f798d799a23ec1f9c2f,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+9a93f8ada168491ea3ddb40a3a20987d,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove heavily infected leaves where practical.
+2. Prevention: Use resistant varieties where available.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+c4071ebe045b47b3a72bdf00655aaa93,Common_Rust,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+77d99a78f68b4cc78d8a69ed15b189e2,Common_Rust,bn,rule_based,"নিয়মভিত্তিক প্রোটোকল থেকে পরামর্শ।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: স্থানীয় কৃষি সম্প্রসারণ নির্দেশিকা অনুযায়ী মরিচা রোগের নিবন্ধিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: লেবেল অনুযায়ী মাত্রা ও ব্যবধান অনুসরণ করুন।
+৩. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+৪. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৫. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৭. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৮. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+bde95b3714b344beb3935b467d824630,Common_Rust,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: স্থানীয় কৃষি সম্প্রসারণ নির্দেশিকা অনুযায়ী মরিচা রোগের নিবন্ধিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: লেবেল অনুযায়ী মাত্রা ও ব্যবধান অনুসরণ করুন।
+৩. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+৪. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৫. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৭. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৮. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+dc131c9388724f8a81287bba54c2551e,Common_Rust,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: স্থানীয় কৃষি সম্প্রসারণ নির্দেশিকা অনুযায়ী মরিচা রোগের নিবন্ধিত ছত্রাকনাশক প্রয়োগ করুন।
+২. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+৩. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+2e38c2dd8f9744c8a405d57a5237b89a,Common_Rust,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: স্থানীয় কৃষি সম্প্রসারণ নির্দেশিকা অনুযায়ী মরিচা রোগের নিবন্ধিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: লেবেল অনুযায়ী মাত্রা ও ব্যবধান অনুসরণ করুন।
+৩. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+৪. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৫. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৭. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৮. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+f192b5d7c4904fbb9169244ef3e046c5,Common_Rust,bn,llm_consensus,"একাধিক মডেলের সম্মতিতে প্রোটোকলভিত্তিক পরামর্শ।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: স্থানীয় কৃষি সম্প্রসারণ নির্দেশিকা অনুযায়ী মরিচা রোগের নিবন্ধিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: লেবেল অনুযায়ী মাত্রা ও ব্যবধান অনুসরণ করুন।
+৩. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+৪. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৫. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৭. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৮. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+1c5d875c9f89445cbd764be6649a3711,Common_Rust,bn,rule_based,"নিয়মভিত্তিক প্রোটোকল থেকে পরামর্শ।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+২. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৩. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৫. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৬. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+5fea5d6acfcd4faa9bd464faf17d30c8,Common_Rust,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+২. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৩. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+b7b27c41a64a444386fc5b1f744ce27e,Common_Rust,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+২. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৩. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৫. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৬. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+585b98fc148d481680c701c3d06a1497,Common_Rust,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+২. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৩. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৫. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৬. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+23f7487c57f844d591266a2adca7aec0,Common_Rust,bn,llm_consensus,"একাধিক মডেলের সম্মতিতে প্রোটোকলভিত্তিক পরামর্শ।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।
+২. জৈব: সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।
+৩. প্রতিরোধ: সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।
+৫. সুরক্ষা: স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।
+৬. সুরক্ষা: ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।
+
+প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।",,,,,
+9039f8ddb0854810888f587c8404521f,Northern_Leaf_Blight,en,rule_based,"Guidance from the rule-based protocol.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a locally approved fungicide when lesions are increasing.
+2. Chemical: Repeat at label interval if disease pressure remains high.
+3. Organic: Remove crop residue after harvest to reduce inoculum.
+4. Organic: Rotate with non-host crops.
+5. Prevention: Use tolerant hybrids and proper field hygiene.
+6. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+7. Safety: Use protective equipment and avoid spray drift.
+8. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+d35af5dcce504271ad9088f28ca9d968,Northern_Leaf_Blight,en,rule_based,"Guidance from the rule-based protocol.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a locally approved fungicide when lesions are increasing.
+2. Chemical: Repeat at label interval if disease pressure remains high.
+3. Organic: Remove crop residue after harvest to reduce inoculum.
+4. Organic: Rotate with non-host crops.
+5. Prevention: Use tolerant hybrids and proper field hygiene.
+6. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+7. Safety: Use protective equipment and avoid spray drift.
+8. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+30448e38cb5547d39bb0896fb25f34a5,Northern_Leaf_Blight,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a locally approved fungicide when lesions are increasing.
+2. Chemical: Repeat at label interval if disease pressure remains high.
+3. Organic: Remove crop residue after harvest to reduce inoculum.
+4. Organic: Rotate with non-host crops.
+5. Prevention: Use tolerant hybrids and proper field hygiene.
+6. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+7. Safety: Use protective equipment and avoid spray drift.
+8. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+8f16a57a75e946729f24ca33f2bdf503,Northern_Leaf_Blight,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a locally approved fungicide when lesions are increasing.
+2. Chemical: Repeat at label interval if disease pressure remains high.
+3. Organic: Remove crop residue after harvest to reduce inoculum.
+4. Organic: Rotate with non-host crops.
+5. Prevention: Use tolerant hybrids and proper field hygiene.
+6. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+7. Safety: Use protective equipment and avoid spray drift.
+8. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+3b6e23c3449d45fab44f41688e4fb1c0,Northern_Leaf_Blight,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Apply a locally approved fungicide when lesions are increasing.
+2. Chemical: Repeat at label interval if disease pressure remains high.
+3. Organic: Remove crop residue after harvest to reduce inoculum.
+4. Organic: Rotate with non-host crops.
+5. Prevention: Use tolerant hybrids and proper field hygiene.
+6. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+7. Safety: Use protective equipment and avoid spray drift.
+8. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+6886818930bc4e1aaaa0c2752054f81a,Northern_Leaf_Blight,en,rule_based,"Guidance from the rule-based protocol.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove crop residue after harvest to reduce inoculum.
+2. Organic: Rotate with non-host crops.
+3. Prevention: Use tolerant hybrids and proper field hygiene.
+4. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+5. Safety: Use protective equipment and avoid spray drift.
+6. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+0ff0974616ea4b0e9390564657b185f4,Northern_Leaf_Blight,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove crop residue after harvest to reduce inoculum.
+2. Organic: Rotate with non-host crops.
+3. Prevention: Use tolerant hybrids and proper field hygiene.
+4. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+5. Safety: Use protective equipment and avoid spray drift.
+6. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+0e75431d8a0f4ec6889dd3db57730aeb,Northern_Leaf_Blight,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove crop residue after harvest to reduce inoculum.
+2. Organic: Rotate with non-host crops.
+3. Prevention: Use tolerant hybrids and proper field hygiene.
+4. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+5. Safety: Use protective equipment and avoid spray drift.
+6. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+29ef54ad7a024256afb4a727c845150d,Northern_Leaf_Blight,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove crop residue after harvest to reduce inoculum.
+2. Organic: Rotate with non-host crops.
+3. Prevention: Use tolerant hybrids and proper field hygiene.
+4. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+5. Safety: Use protective equipment and avoid spray drift.
+6. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+09caa1af126e47e7b3c639b152abe1b4,Northern_Leaf_Blight,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Remove crop residue after harvest to reduce inoculum.
+2. Organic: Rotate with non-host crops.
+3. Prevention: Use tolerant hybrids and proper field hygiene.
+4. Prevention: Avoid late irrigation that keeps leaves wet for long periods.
+5. Safety: Use protective equipment and avoid spray drift.
+6. Safety: Do not exceed the recommended concentration.
+
+Use Bangladesh extension recommendations for active ingredient selection.",,,,,
+56a813e2ca71453e8260f972ce274067,Northern_Leaf_Blight,bn,rule_based,"নিয়মভিত্তিক প্রোটোকল থেকে পরামর্শ।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: দাগ বাড়তে থাকলে স্থানীয়ভাবে অনুমোদিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: রোগের চাপ থাকলে লেবেল অনুযায়ী ব্যবধানে পুনঃপ্রয়োগ করুন।
+৩. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+৪. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৫. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৭. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৮. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+82c9ccefc22e471ea7ed6d67e05f9a82,Northern_Leaf_Blight,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: দাগ বাড়তে থাকলে স্থানীয়ভাবে অনুমোদিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: রোগের চাপ থাকলে লেবেল অনুযায়ী ব্যবধানে পুনঃপ্রয়োগ করুন।
+৩. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+৪. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৫. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৭. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৮. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+906ec8a32889451a8528f3d59d05f260,Northern_Leaf_Blight,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: দাগ বাড়তে থাকলে স্থানীয়ভাবে অনুমোদিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: রোগের চাপ থাকলে লেবেল অনুযায়ী ব্যবধানে পুনঃপ্রয়োগ করুন।
+৩. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+৪. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৫. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৭. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৮. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+3a3717292b844c228df45e05bc102b2b,Northern_Leaf_Blight,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: দাগ বাড়তে থাকলে স্থানীয়ভাবে অনুমোদিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: রোগের চাপ থাকলে লেবেল অনুযায়ী ব্যবধানে পুনঃপ্রয়োগ করুন।
+৩. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+৪. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৫. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৭. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৮. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+09bcb52162c74f8eb3e8287c4bf0b02f,Northern_Leaf_Blight,bn,llm_consensus,"একাধিক মডেলের সম্মতিতে প্রোটোকলভিত্তিক পরামর্শ।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: দাগ বাড়তে থাকলে স্থানীয়ভাবে অনুমোদিত ছত্রাকনাশক প্রয়োগ করুন।
+২. রাসায়নিক: রোগের চাপ থাকলে লেবেল অনুযায়ী ব্যবধানে পুনঃপ্রয়োগ করুন।
+৩. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+৪. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৫. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৭. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৮. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+9c18175e4fb5480fb380cbe9f7c58223,Northern_Leaf_Blight,bn,rule_based,"নিয়মভিত্তিক প্রোটোকল থেকে পরামর্শ।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+২. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৩. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৫. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৬. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+aec9206259b044a5bede1867afe1726c,Northern_Leaf_Blight,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+e245259dca324707a201e7a35479d04c,Northern_Leaf_Blight,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+২. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৩. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৫. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৬. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+0a0655db55ce4bc88c389d1c20714778,Northern_Leaf_Blight,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+২. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৩. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৫. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৬. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+23b825da2deb4e34afa51ed292e88e69,Northern_Leaf_Blight,bn,llm_consensus,"একাধিক মডেলের সম্মতিতে প্রোটোকলভিত্তিক পরামর্শ।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।
+২. জৈব: অহোস্ট ফসলের সাথে আবর্তন করুন।
+৩. প্রতিরোধ: সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।
+৫. সুরক্ষা: সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।
+৬. সুরক্ষা: প্রস্তাবিত মাত্রা অতিক্রম করবেন না।
+
+বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।",,,,,
+4c398bd53a0046d3b0fd1b280a607e6d,Gray_Leaf_Spot,en,rule_based,"Guidance from the rule-based protocol.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Use a recommended foliar fungicide if economic threshold is met.
+2. Chemical: Ensure complete canopy coverage during spray.
+3. Organic: Improve residue management and field airflow.
+4. Organic: Use balanced potassium nutrition where deficient.
+5. Prevention: Adopt crop rotation and disease-tolerant varieties.
+6. Prevention: Avoid prolonged leaf wetness conditions.
+7. Safety: Follow label dose and mixing instruction strictly.
+8. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+427202589c984282a7590fbff8c300a7,Gray_Leaf_Spot,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Use a recommended foliar fungicide if economic threshold is met.
+2. Chemical: Ensure complete canopy coverage during spray.
+3. Organic: Improve residue management and field airflow.
+4. Organic: Use balanced potassium nutrition where deficient.
+5. Prevention: Adopt crop rotation and disease-tolerant varieties.
+6. Prevention: Avoid prolonged leaf wetness conditions.
+7. Safety: Follow label dose and mixing instruction strictly.
+8. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+6f3eac59e37141cf88c32a8541e1ee57,Gray_Leaf_Spot,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Use a recommended foliar fungicide if economic threshold is met.
+2. Chemical: Ensure complete canopy coverage during spray.
+3. Prevention: Adopt crop rotation and disease-tolerant varieties.
+4. Prevention: Avoid prolonged leaf wetness conditions.
+5. Safety: Follow label dose and mixing instruction strictly.
+6. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+3427c18a5961437c8a7237117f892d06,Gray_Leaf_Spot,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Use a recommended foliar fungicide if economic threshold is met.
+2. Chemical: Ensure complete canopy coverage during spray.
+3. Organic: Improve residue management and field airflow.
+4. Organic: Use balanced potassium nutrition where deficient.
+5. Prevention: Adopt crop rotation and disease-tolerant varieties.
+6. Prevention: Avoid prolonged leaf wetness conditions.
+7. Safety: Follow label dose and mixing instruction strictly.
+8. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+43da8204544b489599b8eadc60dbee6a,Gray_Leaf_Spot,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Chemical: Use a recommended foliar fungicide if economic threshold is met.
+2. Chemical: Ensure complete canopy coverage during spray.
+3. Organic: Improve residue management and field airflow.
+4. Organic: Use balanced potassium nutrition where deficient.
+5. Prevention: Adopt crop rotation and disease-tolerant varieties.
+6. Prevention: Avoid prolonged leaf wetness conditions.
+7. Safety: Follow label dose and mixing instruction strictly.
+8. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+5bb2a0a703a443efbf34bbc767ec740d,Gray_Leaf_Spot,en,rule_based,"Guidance from the rule-based protocol.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Improve residue management and field airflow.
+2. Organic: Use balanced potassium nutrition where deficient.
+3. Prevention: Adopt crop rotation and disease-tolerant varieties.
+4. Prevention: Avoid prolonged leaf wetness conditions.
+5. Safety: Follow label dose and mixing instruction strictly.
+6. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+528ce746ed3345ae8870ea85b6567c9a,Gray_Leaf_Spot,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Improve residue management and field airflow.
+2. Organic: Use balanced potassium nutrition where deficient.
+3. Prevention: Adopt crop rotation and disease-tolerant varieties.
+4. Prevention: Avoid prolonged leaf wetness conditions.
+
+Validate product name and dose with DAE before field use.",,,,,
+2cc7d0aa23e04962a7f7deeba67c0563,Gray_Leaf_Spot,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Improve residue management and field airflow.
+2. Organic: Use balanced potassium nutrition where deficient.
+3. Prevention: Adopt crop rotation and disease-tolerant varieties.
+4. Prevention: Avoid prolonged leaf wetness conditions.
+
+Validate product name and dose with DAE before field use.",,,,,
+cb1684a661804890b1be0f5db657f310,Gray_Leaf_Spot,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Improve residue management and field airflow.
+2. Organic: Use balanced potassium nutrition where deficient.
+3. Prevention: Adopt crop rotation and disease-tolerant varieties.
+4. Prevention: Avoid prolonged leaf wetness conditions.
+5. Safety: Follow label dose and mixing instruction strictly.
+6. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+c6b4da8501694210a36a8dd3ceac1a5d,Gray_Leaf_Spot,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Improve residue management and field airflow.
+2. Organic: Use balanced potassium nutrition where deficient.
+3. Prevention: Adopt crop rotation and disease-tolerant varieties.
+4. Prevention: Avoid prolonged leaf wetness conditions.
+5. Safety: Follow label dose and mixing instruction strictly.
+6. Safety: Store chemicals away from children and food.
+
+Validate product name and dose with DAE before field use.",,,,,
+4a8cec1e1a0e4842b5886d68bf2b50da,Gray_Leaf_Spot,bn,rule_based,"নিয়মভিত্তিক প্রোটোকল থেকে পরামর্শ।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: অর্থনৈতিক ক্ষতির সীমা অতিক্রম করলে প্রস্তাবিত পাতার ছত্রাকনাশক ব্যবহার করুন।
+২. রাসায়নিক: স্প্রে করার সময় পাতায় সম্পূর্ণ কভারেজ নিশ্চিত করুন।
+৩. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+৪. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৫. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৭. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৮. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+3bfd4c035298414cbc272d39ce62ce51,Gray_Leaf_Spot,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: অর্থনৈতিক ক্ষতির সীমা অতিক্রম করলে প্রস্তাবিত পাতার ছত্রাকনাশক ব্যবহার করুন।
+২. রাসায়নিক: স্প্রে করার সময় পাতায় সম্পূর্ণ কভারেজ নিশ্চিত করুন।
+৩. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+৪. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৫. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৭. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৮. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+f077513056c54c4cb55e7cd9f0050e60,Gray_Leaf_Spot,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: অর্থনৈতিক ক্ষতির সীমা অতিক্রম করলে প্রস্তাবিত পাতার ছত্রাকনাশক ব্যবহার করুন।
+২. রাসায়নিক: স্প্রে করার সময় পাতায় সম্পূর্ণ কভারেজ নিশ্চিত করুন।
+৩. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+৪. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৫. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৭. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৮. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+48289a0310464d34b226db248b77d94f,Gray_Leaf_Spot,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: অর্থনৈতিক ক্ষতির সীমা অতিক্রম করলে প্রস্তাবিত পাতার ছত্রাকনাশক ব্যবহার করুন।
+২. রাসায়নিক: স্প্রে করার সময় পাতায় সম্পূর্ণ কভারেজ নিশ্চিত করুন।
+৩. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+৪. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৫. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৭. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৮. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+a92faac9535a4a0abe254a6647529a2b,Gray_Leaf_Spot,bn,llm_consensus,"একাধিক মডেলের সম্মতিতে প্রোটোকলভিত্তিক পরামর্শ।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. রাসায়নিক: অর্থনৈতিক ক্ষতির সীমা অতিক্রম করলে প্রস্তাবিত পাতার ছত্রাকনাশক ব্যবহার করুন।
+২. রাসায়নিক: স্প্রে করার সময় পাতায় সম্পূর্ণ কভারেজ নিশ্চিত করুন।
+৩. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+৪. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৫. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৬. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৭. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৮. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+548c312c8d7440dd97b6081be3f22887,Gray_Leaf_Spot,bn,rule_based,"নিয়মভিত্তিক প্রোটোকল থেকে পরামর্শ।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+২. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৩. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৫. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৬. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+3674afdbaa6c4fab85c6087c85c943b5,Gray_Leaf_Spot,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+২. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৩. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+f584d112134a4612a2b04f951333f436,Gray_Leaf_Spot,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+২. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৩. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৪. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+fb73eed431644e56b6f0117f0494811a,Gray_Leaf_Spot,bn,llm_single,"একটি মডেলের প্রোটোকল নির্বাচন; এটি consensus নয়।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+২. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৩. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+৫. সুরক্ষা: লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।
+৬. সুরক্ষা: রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+9106cca34b464cdc9cd9de4d58d5daf2,Gray_Leaf_Spot,bn,llm_consensus,"একাধিক মডেলের সম্মতিতে প্রোটোকলভিত্তিক পরামর্শ।
+
+পূর্বাভাসে আত্মবিশ্বাস কম। পরিষ্কার ছবি তুলুন এবং রাসায়নিক ব্যবহারের আগে রোগ নিশ্চিত করুন।
+
+মাঠে উপসর্গ মিলিয়ে স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।
+
+১. জৈব: ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।
+২. জৈব: পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।
+৩. প্রতিরোধ: ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।
+৪. প্রতিরোধ: পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।
+
+ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।",,,,,
+7d1b7a9b318d4965bf8680d18f7c8b75,Healthy,en,static,"The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+69700695691f41bebdb8b481eb6e9568,Healthy,en,static,"The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+b22814b1f8f046f59e1b556f61cdd70f,Healthy,en,static,"The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+795c40d77281450c86fc8084a73dd352,Healthy,en,static,"The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+db98fecfc48143efac1e3508efc8162e,Healthy,en,static,"The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+39dc67474ff745138eb8f315beb0af5b,Healthy,en,static,"The model is uncertain; this result does not confirm that the plant is healthy. Retake a clear leaf photo and check symptoms in the field. The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+aabfe4590c974d84a3ddefad5436ec76,Healthy,en,static,"The model is uncertain; this result does not confirm that the plant is healthy. Retake a clear leaf photo and check symptoms in the field. The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+40d1f3056bdd452ebdcdebb4932a60ec,Healthy,en,static,"The model is uncertain; this result does not confirm that the plant is healthy. Retake a clear leaf photo and check symptoms in the field. The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+752358d12af74973b82738a1d31fb767,Healthy,en,static,"The model is uncertain; this result does not confirm that the plant is healthy. Retake a clear leaf photo and check symptoms in the field. The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+d8237b0cfde847a1a20f8b8e60c2b059,Healthy,en,static,"The model is uncertain; this result does not confirm that the plant is healthy. Retake a clear leaf photo and check symptoms in the field. The model suggests a healthy leaf. Keep checking leaves regularly, maintain good drainage and balanced nutrition, and avoid unnecessary pesticide use. If you notice spreading spots, wilting, or other symptoms, take a clearer photo and consult a local agricultural extension officer.",,,,,
+528d9337afa948bba9465a7599952fb4,Healthy,bn,static,"মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+8de9cc7f07cd48f782badbb343b48419,Healthy,bn,static,"মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+5a769cecb706405b846d31bbabab5332,Healthy,bn,static,"মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+15d565c91ee94f2ea1347864583f2715,Healthy,bn,static,"মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+a90003ff2fc6439e9fa3ec9bf10c9b69,Healthy,bn,static,"মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+d04f16bb3f3b4ae78447721c62fa01b0,Healthy,bn,static,"মডেল এই ফলে অনিশ্চিত; গাছটি সুস্থ বলে নিশ্চিত হওয়া যায় না। পরিষ্কার ছবি তুলে আবার পরীক্ষা করুন এবং মাঠে উপসর্গ মিলিয়ে দেখুন। মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+d264298a0af54a539cedeb8210d85eb8,Healthy,bn,static,"মডেল এই ফলে অনিশ্চিত; গাছটি সুস্থ বলে নিশ্চিত হওয়া যায় না। পরিষ্কার ছবি তুলে আবার পরীক্ষা করুন এবং মাঠে উপসর্গ মিলিয়ে দেখুন। মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+70d9db9650314417b9bd900d1af315c1,Healthy,bn,static,"মডেল এই ফলে অনিশ্চিত; গাছটি সুস্থ বলে নিশ্চিত হওয়া যায় না। পরিষ্কার ছবি তুলে আবার পরীক্ষা করুন এবং মাঠে উপসর্গ মিলিয়ে দেখুন। মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+2c7a645983fc4395a03ed1292f5bfdaa,Healthy,bn,static,"মডেল এই ফলে অনিশ্চিত; গাছটি সুস্থ বলে নিশ্চিত হওয়া যায় না। পরিষ্কার ছবি তুলে আবার পরীক্ষা করুন এবং মাঠে উপসর্গ মিলিয়ে দেখুন। মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+baa293126480482a8de411d5a805ec8c,Healthy,bn,static,"মডেল এই ফলে অনিশ্চিত; গাছটি সুস্থ বলে নিশ্চিত হওয়া যায় না। পরিষ্কার ছবি তুলে আবার পরীক্ষা করুন এবং মাঠে উপসর্গ মিলিয়ে দেখুন। মডেলের ফল অনুযায়ী পাতাটি সুস্থ মনে হচ্ছে। নিয়মিত পাতা পর্যবেক্ষণ করুন, পানি নিষ্কাশন ভালো রাখুন এবং সুষম পুষ্টি নিশ্চিত করুন। অপ্রয়োজনে কীটনাশক ব্যবহার করবেন না। দাগ ছড়িয়ে পড়া, ঢলে পড়া বা অন্য উপসর্গ দেখা গেলে পরিষ্কার ছবি তুলুন এবং স্থানীয় কৃষি কর্মকর্তার পরামর্শ নিন।",,,,,
+ef340f7f711b4fc7af92436559ccece1,Common_Rust,en,rule_based,"Guidance from the rule-based protocol.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment. Possible mixed infection or ambiguous disease scores. This does not prove multiple diseases; seek field confirmation.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+531cbf71bfb74e96b03f0f869736721c,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment. Possible mixed infection or ambiguous disease scores. This does not prove multiple diseases; seek field confirmation.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+ea682cb0f5d34ac7b0e3f38c41b97cdd,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment. Possible mixed infection or ambiguous disease scores. This does not prove multiple diseases; seek field confirmation.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+3dd6fd075ecb4a4590a3cb1380d8b4f4,Common_Rust,en,llm_single,"Single-model protocol selection; this is not consensus.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment. Possible mixed infection or ambiguous disease scores. This does not prove multiple diseases; seek field confirmation.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,
+c8f13e67b5454eb1a45407e228cc1533,Common_Rust,en,llm_consensus,"Protocol guidance agreed by multiple models.
+
+Low-confidence prediction. Retake a clear photo and confirm the disease before chemical treatment. Possible mixed infection or ambiguous disease scores. This does not prove multiple diseases; seek field confirmation.
+
+Confirm symptoms in the field with a local agricultural extension officer.
+
+1. Organic: Use field sanitation and balanced fertilization.
+2. Organic: Remove heavily infected leaves where practical.
+3. Prevention: Use resistant varieties where available.
+4. Prevention: Avoid excessive plant density and improve airflow.
+5. Safety: Wear gloves and mask during spray.
+6. Safety: Follow pre-harvest interval and re-entry period.
+
+Consult BARI/DAE approved product list for Bangladesh before application.",,,,,

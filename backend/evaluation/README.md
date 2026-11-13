@@ -97,3 +97,7 @@ settings. Input/output token limits, timeout and protocol constraints are unchan
 The evaluator resolves output paths to absolute paths so its audit log and summary
 refer to the same directory. Healthy requests intentionally use static care and must
 be excluded when comparing actual provider response times or dynamic fallback rates.
+
+## Published benchmark
+
+The completed 2026-11-13 live run is available in [results/live-2026-11-13](results/live-2026-11-13), with checksums in manifest.json and an [interpreted report](reports/live-2026-11-13.md). It includes 85 responses, audit events, summary metrics, verified metrics excluding static-care latency, and an unscored expert-review sheet. No API keys or raw reasoning are included.

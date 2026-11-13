@@ -1,0 +1,19 @@
+{
+  "run_id": "live-2026-11-13-02",
+  "status": "completed",
+  "repetitions": 1,
+  "advisory_results": 85,
+  "provider_attempts": 83,
+  "limitations": [
+    "Protocol reliability, not agronomic correctness or classification accuracy.",
+    "Expert review sheet is unscored.",
+    "Initial interrupted diagnostic is excluded."
+  ],
+  "files": {
+    "summary.json": "121f3c1e1d46c4661448937751d604db6e4d195c2ecc1d5b0df8a1645a7a6abe",
+    "verified-metrics.json": "683750352d32e57ff51a38a576f8e961473f2bceb16eab320f99b9650aa4d79b",
+    "responses.jsonl": "d2255015e6330b01f9c6e4660785039ccbd33e2deb0a64e92ea9bab8d84160da",
+    "audit.jsonl": "e232faec4d2c4fb8957acc84cebe42ef0c6df0be53c5dbdbf535d1e7ad1331cf",
+    "expert-review.csv": "a8b97417e54f14a794952607edee55e5697b0e646c58020a671f0e36d7dc2430"
+  }
+}
