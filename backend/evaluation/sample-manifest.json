@@ -1,0 +1,22 @@
+[
+  {
+    "path": "../../frontend/public/samples/healthy.jpg",
+    "label": "Healthy",
+    "sha256": "01c5e564a5d67ef92a4a1b12bb024a3598686face95cf972bf414fd1c03006ff"
+  },
+  {
+    "path": "../../frontend/public/samples/rust.jpg",
+    "label": "Common_Rust",
+    "sha256": "491869b33aed8a7e1b64836ea295b28d1163deb5f69312be729761d08a10fed9"
+  },
+  {
+    "path": "../../frontend/public/samples/spot.jpg",
+    "label": "Gray_Leaf_Spot",
+    "sha256": "60c2af0d8bc71ca3b8a235506d8fd1d81f04954abc2d141a401abe2352d18176"
+  },
+  {
+    "path": "../../frontend/public/samples/blight.jpg",
+    "label": "Northern_Leaf_Blight",
+    "sha256": "10a28ad59f0fa387597b6f90296ba7486620c8b825faa6cb6ccc8059aac2c94f"
+  }
+]

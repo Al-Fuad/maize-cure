@@ -1,0 +1,148 @@
+{
+  "Common_Rust": {
+    "pathogen": "Puccinia sorghi",
+    "chemical_treatment": [
+      "Apply a registered fungicide for rust as per local extension guideline.",
+      "Use only label-recommended dosage and interval."
+    ],
+    "chemical_treatment_bn": [
+      "স্থানীয় কৃষি সম্প্রসারণ নির্দেশিকা অনুযায়ী মরিচা রোগের নিবন্ধিত ছত্রাকনাশক প্রয়োগ করুন।",
+      "লেবেল অনুযায়ী মাত্রা ও ব্যবধান অনুসরণ করুন।"
+    ],
+    "organic_options": [
+      "Use field sanitation and balanced fertilization.",
+      "Remove heavily infected leaves where practical."
+    ],
+    "organic_options_bn": [
+      "ক্ষেত পরিচ্ছন্নতা ও সুষম সার ব্যবস্থাপনা বজায় রাখুন।",
+      "সম্ভব হলে বেশি আক্রান্ত পাতা অপসারণ করুন।"
+    ],
+    "prevention": [
+      "Use resistant varieties where available.",
+      "Avoid excessive plant density and improve airflow."
+    ],
+    "prevention_bn": [
+      "সম্ভব হলে রোগ-সহনশীল জাত ব্যবহার করুন।",
+      "অতিরিক্ত ঘনত্ব এড়িয়ে বায়ু চলাচল নিশ্চিত করুন।"
+    ],
+    "safety": [
+      "Wear gloves and mask during spray.",
+      "Follow pre-harvest interval and re-entry period."
+    ],
+    "safety_bn": [
+      "স্প্রে করার সময় গ্লাভস ও মাস্ক ব্যবহার করুন।",
+      "ফসল সংগ্রহের আগে নির্ধারিত বিরতি (PHI) ও পুনঃপ্রবেশ সময় মেনে চলুন।"
+    ],
+    "local_relevance": "Consult BARI/DAE approved product list for Bangladesh before application.",
+    "local_relevance_bn": "প্রয়োগের আগে বাংলাদেশে অনুমোদিত পণ্যের তালিকা (BARI/DAE) অনুসরণ করুন।"
+  },
+  "Northern_Leaf_Blight": {
+    "pathogen": "Exserohilum turcicum",
+    "chemical_treatment": [
+      "Apply a locally approved fungicide when lesions are increasing.",
+      "Repeat at label interval if disease pressure remains high."
+    ],
+    "chemical_treatment_bn": [
+      "দাগ বাড়তে থাকলে স্থানীয়ভাবে অনুমোদিত ছত্রাকনাশক প্রয়োগ করুন।",
+      "রোগের চাপ থাকলে লেবেল অনুযায়ী ব্যবধানে পুনঃপ্রয়োগ করুন।"
+    ],
+    "organic_options": [
+      "Remove crop residue after harvest to reduce inoculum.",
+      "Rotate with non-host crops."
+    ],
+    "organic_options_bn": [
+      "ফসল কাটার পর অবশিষ্টাংশ অপসারণ করে ইনোকুলাম কমান।",
+      "অহোস্ট ফসলের সাথে আবর্তন করুন।"
+    ],
+    "prevention": [
+      "Use tolerant hybrids and proper field hygiene.",
+      "Avoid late irrigation that keeps leaves wet for long periods."
+    ],
+    "prevention_bn": [
+      "সহনশীল হাইব্রিড ও মাঠের পরিচ্ছন্নতা বজায় রাখুন।",
+      "পাতা দীর্ঘ সময় ভেজা থাকে এমন সেচ এড়িয়ে চলুন।"
+    ],
+    "safety": [
+      "Use protective equipment and avoid spray drift.",
+      "Do not exceed the recommended concentration."
+    ],
+    "safety_bn": [
+      "সুরক্ষা সরঞ্জাম ব্যবহার করুন এবং স্প্রে ড্রিফট এড়ান।",
+      "প্রস্তাবিত মাত্রা অতিক্রম করবেন না।"
+    ],
+    "local_relevance": "Use Bangladesh extension recommendations for active ingredient selection.",
+    "local_relevance_bn": "বাংলাদেশি সম্প্রসারণ নির্দেশিকা অনুযায়ী সক্রিয় উপাদান নির্বাচন করুন।"
+  },
+  "Gray_Leaf_Spot": {
+    "pathogen": "Cercospora zeae-maydis",
+    "chemical_treatment": [
+      "Use a recommended foliar fungicide if economic threshold is met.",
+      "Ensure complete canopy coverage during spray."
+    ],
+    "chemical_treatment_bn": [
+      "অর্থনৈতিক ক্ষতির সীমা অতিক্রম করলে প্রস্তাবিত পাতার ছত্রাকনাশক ব্যবহার করুন।",
+      "স্প্রে করার সময় পাতায় সম্পূর্ণ কভারেজ নিশ্চিত করুন।"
+    ],
+    "organic_options": [
+      "Improve residue management and field airflow.",
+      "Use balanced potassium nutrition where deficient."
+    ],
+    "organic_options_bn": [
+      "ফসলের অবশিষ্টাংশ ব্যবস্থাপনা ও বায়ু চলাচল উন্নত করুন।",
+      "পটাশের ঘাটতি থাকলে সুষম পুষ্টি ব্যবস্থাপনা করুন।"
+    ],
+    "prevention": [
+      "Adopt crop rotation and disease-tolerant varieties.",
+      "Avoid prolonged leaf wetness conditions."
+    ],
+    "prevention_bn": [
+      "ফসল আবর্তন ও রোগ-সহনশীল জাত ব্যবহার করুন।",
+      "পাতা দীর্ঘ সময় ভেজা থাকে এমন পরিবেশ এড়িয়ে চলুন।"
+    ],
+    "safety": [
+      "Follow label dose and mixing instruction strictly.",
+      "Store chemicals away from children and food."
+    ],
+    "safety_bn": [
+      "লেবেল ডোজ ও মিশ্রণ নির্দেশনা কঠোরভাবে অনুসরণ করুন।",
+      "রাসায়নিক শিশু ও খাদ্য থেকে দূরে রাখুন।"
+    ],
+    "local_relevance": "Validate product name and dose with DAE before field use.",
+    "local_relevance_bn": "ক্ষেতে ব্যবহারের আগে DAE থেকে পণ্যের নাম ও ডোজ যাচাই করুন।"
+  },
+  "Healthy": {
+    "pathogen": "None detected",
+    "chemical_treatment": [
+      "No fungicide needed based on current image evidence."
+    ],
+    "chemical_treatment_bn": [
+      "বর্তমান ছবিতে ছত্রাকনাশকের প্রয়োজন নেই।"
+    ],
+    "organic_options": [
+      "Maintain balanced fertilization and irrigation scheduling.",
+      "Continue regular field scouting every 5-7 days."
+    ],
+    "organic_options_bn": [
+      "সুষম সার ও সেচ ব্যবস্থাপনা বজায় রাখুন।",
+      "প্রতি ৫–৭ দিনে নিয়মিত স্কাউটিং করুন।"
+    ],
+    "prevention": [
+      "Keep weed pressure low and maintain sanitation.",
+      "Use quality seed and suitable spacing."
+    ],
+    "prevention_bn": [
+      "আগাছা নিয়ন্ত্রণ ও পরিচ্ছন্নতা বজায় রাখুন।",
+      "উন্নত বীজ ও উপযুক্ত দূরত্ব বজায় রাখুন।"
+    ],
+    "safety": [
+      "Avoid unnecessary pesticide application.",
+      "Use preventive practices first."
+    ],
+    "safety_bn": [
+      "অপ্রয়োজনীয় কীটনাশক ব্যবহার এড়িয়ে চলুন।",
+      "প্রতিরোধমূলক চর্চাকে অগ্রাধিকার দিন।"
+    ],
+    "local_relevance": "Continue routine monitoring under local weather conditions.",
+    "local_relevance_bn": "স্থানীয় আবহাওয়া অনুযায়ী নিয়মিত পর্যবেক্ষণ চালিয়ে যান।"
+  }
+}

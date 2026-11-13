@@ -5,8 +5,10 @@ import os
 import threading
 import time
 from pathlib import Path
+from typing import Literal
+import uuid
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, UploadFile, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from PIL import Image, ImageOps, UnidentifiedImageError
@@ -14,9 +16,13 @@ from starlette.concurrency import run_in_threadpool
 
 from dotenv import load_dotenv
 if __package__:
-    from .advice import AdviceRequest, get_advice
+    from .checkpoints import load_checked, CheckpointError, CLASSES
+    from .research_logs import record
+    from .advice import AdviceRequest, get_advice, configured_providers
 else:
-    from advice import AdviceRequest, get_advice
+    from checkpoints import load_checked, CheckpointError, CLASSES
+    from research_logs import record
+    from advice import AdviceRequest, get_advice, configured_providers
 
 ROOT = Path(__file__).parent
 load_dotenv(ROOT / '.env', override=False)
@@ -72,7 +78,7 @@ def model_info(model_id: str):
     return read_report(model_id)
 
 
-def infer(model_id, raw):
+def infer(model_id, raw, mode="single", cascade_threshold=.8):
     global _cached
     try:
         with Image.open(io.BytesIO(raw)) as source:
@@ -87,31 +93,71 @@ def infer(model_id, raw):
         raise HTTPException(413, 'Image dimensions are too large.')
     report = read_report(model_id)
     path = ROOT / 'models' / f'{model_id}_best.pth'
-    if not path.is_file():
+    if mode == "single" and not path.is_file():
         raise HTTPException(503, 'Model weights are not installed yet.')
     import torch
     import timm
     from torchvision import transforms
     torch.set_num_threads(int(os.getenv('TORCH_NUM_THREADS', '2')))
     tensor = transforms.Compose([transforms.Resize((224, 224)), transforms.ToTensor(), transforms.Normalize([.485, .456, .406], [.229, .224, .225])])(image).unsqueeze(0)
-    # Serialize loading/inference; retain one model to bound memory on small instances.
+    # Keep one model resident: ensemble/cascade execute sequentially to bound RAM.
     with lock:
         started = time.perf_counter()
-        if _cached[0] != model_id:
-            _cached = (None, None)
-            model = timm.create_model(model_id, pretrained=False, num_classes=4)
-            model.load_state_dict(torch.load(path, map_location='cpu', weights_only=True), strict=True)
-            model.eval()
-            _cached = (model_id, model)
-        with torch.inference_mode():
-            probs = torch.softmax(_cached[1](tensor), dim=1)[0].tolist()
+        members = []
+        def run(member):
+            global _cached
+            member_report = read_report(member)
+            if member_report['config']['classes'] != CLASSES:
+                raise HTTPException(503, 'Model checkpoint validation failed.')
+            if _cached[0] != member:
+                _cached = (None, None)
+                model = timm.create_model(member, pretrained=False, num_classes=4)
+                try:
+                    checksum = load_checked(model, ROOT / 'models' / f'{member}_best.pth', member_report['config']['classes'])
+                except (CheckpointError, OSError, RuntimeError, ValueError, KeyError, EOFError):
+                    record('checkpoint_rejected', model=member)
+                    raise HTTPException(503, 'Model checkpoint validation failed.') from None
+                model.eval()
+                _cached = (member, model)
+                record('checkpoint_loaded', model=member, sha256=checksum, classes=CLASSES)
+            with torch.inference_mode():
+                values = torch.softmax(_cached[1](tensor), dim=1)[0].tolist()
+            if len(values) != 4 or not all(__import__('math').isfinite(v) for v in values):
+                raise HTTPException(503, 'Invalid model output.')
+            members.append(member)
+            return values
+        probs = classify(run, model_id, mode, cascade_threshold)
         elapsed = round((time.perf_counter() - started) * 1000)
-    predictions = sorted([{'class_name': label, 'probability': p} for label, p in zip(report['config']['classes'], probs)], key=lambda x: x['probability'], reverse=True)
-    return {'model_id': model_id, 'prediction': predictions[0]['class_name'], 'confidence': predictions[0]['probability'], 'probabilities': predictions, 'inference_ms': elapsed, 'preprocessing_status': report['preprocessing']['status'], 'note': 'Scores are model confidence, not certainty. Only the four supported maize leaf classes can be predicted.'}
+    predictions = sorted([{'class_name': label, 'probability': p} for label, p in zip(CLASSES, probs)], key=lambda x: x['probability'], reverse=True)
+    result = {'model_id': model_id if mode == 'single' else mode, 'classification_mode': mode,
+              'models_used': members, 'cascade_threshold': cascade_threshold, 'prediction_id': uuid.uuid4().hex,
+              'prediction': predictions[0]['class_name'], 'confidence': predictions[0]['probability'],
+              'probabilities': predictions, 'inference_ms': elapsed, 'preprocessing_status': report['preprocessing']['status'],
+              'note': 'Scores are model confidence, not certainty. Ensemble/cascade have not been evaluated on a common held-out set.'}
+    record('classification', **result)
+    return result
+
+
+def classify(run, model_id, mode, threshold):
+    if mode == 'single':
+        return run(model_id)
+    if mode == 'ensemble':
+        vectors = [run(member) for member in MODEL_IDS]
+    elif mode == 'cascade':
+        first = run('efficientnet_b0')
+        if max(first) >= threshold:
+            return first
+        vectors = [first, run('resnet50')]
+    else:
+        raise ValueError('Unknown classification mode')
+    return [sum(column)/len(vectors) for column in zip(*vectors)]
+
 
 
 @app.post('/api/predict/{model_id}')
-async def predict(model_id: str, file: UploadFile = File(...)):
+async def predict(model_id: str, file: UploadFile = File(...),
+                  mode: Literal['single', 'ensemble', 'cascade'] = 'single',
+                  cascade_threshold: float = Query(default=.8, ge=.5, le=.99, allow_inf_nan=False)):
     read_report(model_id)
     raw = await file.read(MAX_BYTES + 1)
     await file.close()
@@ -119,9 +165,16 @@ async def predict(model_id: str, file: UploadFile = File(...)):
         raise HTTPException(413, 'Maximum file size is 10 MB.')
     if not raw:
         raise HTTPException(400, 'Choose an image first.')
-    return await run_in_threadpool(infer, model_id, raw)
+    return await run_in_threadpool(infer, model_id, raw, mode, cascade_threshold)
 
 
 @app.post('/api/advice')
 async def advice(data: AdviceRequest):
     return await get_advice(data)
+
+
+@app.get('/api/advice/config')
+def advice_config():
+    active = {p.name: p.model for p in configured_providers()}
+    return {'providers': [{'id': name, 'configured': name in active, 'model': active.get(name)}
+                          for name in ('gemini', 'groq', 'openrouter')]}

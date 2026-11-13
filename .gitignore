@@ -12,3 +12,5 @@ backend/models/*
 
 **/.venv-test/
 **/*.tsbuildinfo
+backend/logs/
+backend/evaluation/runs/
