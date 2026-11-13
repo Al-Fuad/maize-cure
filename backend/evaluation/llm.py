@@ -46,7 +46,7 @@ async def run(args):
     providers = advice.configured_providers()
     if args.live and len(providers)<2:
         raise SystemExit('Live consensus comparison requires at least two configured providers.')
-    output=Path(args.output)
+    output=Path(args.output).resolve()
     output.mkdir(parents=True, exist_ok=False)
     os.environ['RESEARCH_LOG_ENABLED']='1'
     os.environ['RESEARCH_LOG_PATH']=str(output/'audit.jsonl')
@@ -63,6 +63,7 @@ async def run(args):
                 result=await advice.get_advice(data)
                 rows.append({'repeat':repeat,'case':data.model_dump(),'prediction':data.prediction,
                              'mode':mode,'provider':provider,'latency_ms':round((time.perf_counter()-started)*1000),**result})
+                print(f"repeat={repeat+1} case={data.prediction}/{data.language}/{data.confidence} mode={mode}/{provider} source={result['source']} latency_ms={rows[-1]['latency_ms']}", flush=True)
                 with (output/'responses.jsonl').open('a') as f:
                     f.write(json.dumps(rows[-1],ensure_ascii=False)+'\n')
     events=[json.loads(line) for line in (output/'audit.jsonl').read_text().splitlines()]
@@ -74,7 +75,7 @@ async def run(args):
                     'protocol_sha256':hashlib.sha256(json.dumps(advice.PROTOCOLS,sort_keys=True).encode()).hexdigest(),
                     'code_sha256':hashlib.sha256((ROOT/'advice.py').read_bytes()).hexdigest(),
                     'hourly_attempt_budget':os.getenv('AI_MAX_REQUESTS_PER_HOUR','30'),
-                    'by_mode':{mode:summarize([r for r in rows if r['mode']==mode],[]) for mode in {r['mode'] for r in rows}},
+                    'by_mode':{mode:summarize([r for r in rows if r['mode']==mode],[a for a in attempts if a['request_id'] in {r['request_id'] for r in rows if r['mode']==mode}]) for mode in {r['mode'] for r in rows}},
                     'by_provider':{p.name:summarize([r for r in rows if r['mode']=='single' and r['provider']==p.name], [a for a in attempts if a['provider']==p.name]) for p in providers}})
     (output/'summary.json').write_text(json.dumps(summary,indent=2))
     with (output/'expert-review.csv').open('w',newline='') as f:

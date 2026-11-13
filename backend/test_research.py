@@ -110,3 +110,17 @@ def test_no_observations_are_not_reported_as_success():
     assert result['consensus_success_rate'] is None
     assert result['fallback_rate'] is None
     assert result['parse_success_rate'] is None
+
+
+def test_evaluation_relative_output_uses_same_audit_directory(tmp_path,monkeypatch):
+    from argparse import Namespace
+    from evaluation.llm import run
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('RESEARCH_LOG_RAW','0')
+    monkeypatch.setattr(advice,'configured_providers',lambda:[])
+    asyncio.run(run(Namespace(live=False,repeats=1,output='run')))
+    summary=json.loads((tmp_path/'run/summary.json').read_text())
+    assert summary['runs']==17
+    assert summary['provider_attempts']==0
+    assert (tmp_path/'run/audit.jsonl').is_file()
+    assert (tmp_path/'run/expert-review.csv').is_file()

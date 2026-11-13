@@ -269,3 +269,19 @@ def test_config_and_healthy_metadata(monkeypatch):
         assert not providers['openrouter']['configured']
         result=request(client,'Healthy').json()
         assert result['validated'] and result['llm_models']==[]
+
+
+@pytest.mark.parametrize('name,model,field,value', [
+    ('groq','openai/gpt-oss-120b','reasoning_effort','low'),
+    ('openrouter','nvidia/nemotron-3.5-lightning:free','reasoning',{'enabled':False}),
+])
+def test_protocol_selection_reasoning_budget(monkeypatch,name,model,field,value):
+    captured=[]
+    def handler(req):
+        captured.append(json.loads(req.content))
+        return httpx.Response(200,json={'choices':[{'finish_reason':'stop','message':{'content':json.dumps(payload())}}]})
+    original=httpx.AsyncClient
+    monkeypatch.setattr(advice.httpx,'AsyncClient',lambda **kwargs:original(transport=httpx.MockTransport(handler),**kwargs))
+    asyncio.run(advice.call_provider(advice.Provider(name,model,'test','https://example.com'),'protocol'))
+    assert captured[0][field]==value
+    assert captured[0]['max_tokens']==2048

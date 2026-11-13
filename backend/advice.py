@@ -159,10 +159,15 @@ async def call_provider(provider, prompt):
             text = '\n'.join(part['text'] for part in candidate.get('content', {}).get('parts', [])
                              if isinstance(part.get('text'), str) and not part.get('thought'))
         else:
+            payload = {'model': provider.model, 'messages': [{'role': 'user', 'content': prompt}],
+                       'temperature': .2, 'max_tokens': 2048}
+            # Exact protocol selection needs a short final JSON, not long reasoning.
+            if provider.name == 'groq' and provider.model.startswith('openai/gpt-oss-'):
+                payload['reasoning_effort'] = 'low'
+            if provider.name == 'openrouter' and provider.model == 'nvidia/nemotron-3.5-lightning:free':
+                payload['reasoning'] = {'enabled': False}
             response = await client.post(provider.endpoint,
-                headers={'Authorization': f'Bearer {provider.key}'},
-                json={'model': provider.model, 'messages': [{'role': 'user', 'content': prompt}],
-                      'temperature': .2, 'max_tokens': 2048})
+                headers={'Authorization': f'Bearer {provider.key}'}, json=payload)
             response.raise_for_status()
             choice = response.json()['choices'][0]
             if choice.get('finish_reason') != 'stop':
@@ -216,7 +221,8 @@ async def provider_selection(provider, prompt, allowed):
                    status='invalid_json', latency_ms=round((time.perf_counter()-started)*1000))
         except (httpx.HTTPError, ValueError, KeyError, TypeError, IndexError, AttributeError) as error:
             record('provider_attempt', provider=provider.name, model=provider.model, attempt=attempt+1,
-                   status='error', error_type=type(error).__name__, latency_ms=round((time.perf_counter()-started)*1000))
+                   status='error', error_type=type(error).__name__,
+                   http_status=error.response.status_code if isinstance(error, httpx.HTTPStatusError) else None, latency_ms=round((time.perf_counter()-started)*1000))
             return None
     return None
 

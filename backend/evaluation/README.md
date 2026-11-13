@@ -84,3 +84,16 @@ when supplied. Cached advisory events are marked; they do not fabricate provider
 The prompt and protocol have hashes. Keys, request headers and raw exception messages
 are never logged. Optional raw model text is truncated and known keys redacted; keep
 this off for ordinary use. Log storage failure does not fail a user's diagnosis.
+
+### Live-run correction (2026-11-13)
+
+The first live diagnostic found Nemotron's 2,048-token allowance consumed entirely by
+reasoning, leaving no final JSON (`finish_reason=length`). That partial run is retained
+as diagnostic evidence, not a completed benchmark. The production adapter now disables
+reasoning for the exact Nemotron default and uses low reasoning effort for Groq GPT-OSS.
+Other model overrides keep their existing behavior. The subsequent full run uses these
+settings. Input/output token limits, timeout and protocol constraints are unchanged.
+
+The evaluator resolves output paths to absolute paths so its audit log and summary
+refer to the same directory. Healthy requests intentionally use static care and must
+be excluded when comparing actual provider response times or dynamic fallback rates.
